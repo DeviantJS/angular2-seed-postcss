@@ -1,5 +1,8 @@
+@import '../../css/_typography.css';
+@import '../../css/_colors.css';
+
 :host {
-  background-color: #106cc8;
+  background-color: $toolbar-background-color;
   color: rgba(255, 255, 255, 0.87);
   display: block;
   height: 48px;
@@ -15,7 +18,7 @@ h1 {
 }
 
 more {
-  background: url("./assets/svg/more.svg");
+  background: url('./assets/svg/more.svg');
   float: right;
   height: 24px;
   margin-top: 12px;

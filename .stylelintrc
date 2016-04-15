@@ -1,8 +1,31 @@
 {
-  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-statement-max-nesting-depth"
+  ],
   "rules": {
-    "block-no-empty": null,
-    "at-rule-empty-line-before": null,
-    "rule-non-nested-empty-line-before": null
+  "block-no-empty": true,
+  "color-no-invalid-hex": true,
+  "declaration-colon-space-after": "always",
+  "declaration-colon-space-before": "never",
+  "function-comma-space-after": "always",
+  "function-url-quotes": "single",
+  "media-feature-colon-space-after": "always",
+  "media-feature-colon-space-before": "never",
+  "media-feature-name-no-vendor-prefix": true,
+  "max-empty-lines": 2,
+  "number-leading-zero": "always",
+  "number-no-trailing-zeros": true,
+  "property-no-vendor-prefix": true,
+  "declaration-block-no-duplicate-properties": true,
+  "block-no-single-line": true,
+  "declaration-block-trailing-semicolon": "always",
+  "selector-list-comma-newline-after": "always-multi-line",
+  "selector-no-id": true,
+  "string-quotes": "single",
+  "value-no-vendor-prefix": true,
+  "function-linear-gradient-no-nonstandard-direction": true,
+  "declaration-block-no-shorthand-property-overrides": true,
+  "indentation": 2,
+  "statement-max-nesting-depth": [3, { countAtRules: false }],
   }
 }

@@ -5,6 +5,7 @@ declare module 'stylelint' {
     configFile?: string;
     configBasedir?: string;
     configOverrides?: Object;
+    syntax?: Object;
   }
 
   interface IStylelint {

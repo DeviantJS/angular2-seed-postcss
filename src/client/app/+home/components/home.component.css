@@ -1,3 +1,6 @@
+@import '../../../css/_typography.css';
+@import '../../../css/_colors.css';
+
 :host {
   display: block;
   padding: 0 16px;

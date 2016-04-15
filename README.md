@@ -1,3 +1,26 @@
+# Angular2-Seed + PostCSS === <3
+## So what's the point?
+There are things I love about Sass but there are things that aggravate me.
+
+- It's slow and makes for a cumbersome build process.
+- Did I mention it's slow?!? ( Adds 3-4 seconds to the watch cycle )
+
+I wanted to find a better way while retaining tidy stylesheets.
+
+> Insert PostCSS / PreCSS Here!
+
+Minko's angular2-seed already uses PostCSS autoprefixer & cssnano, the simplest way to get sass-like features is to extend what already exists.
+As you would imagine, it's faster which is always a good thing.
+
+What's enabled then beyond the upstream seed?
+
+- [precss](https://github.com/jonathantneal/precss) - Variables, Conditionals, Loops, Mixins, Imports, Extends & Property Lookups
+- [cssnext](http://cssnext.io/) - It's a long list, go check the docs as there is some pretty cool stuff coming.
+
+Linting is handled by the existing Stylelint implementation using an extended set of rules.
+
+### Implementation instructions can be found [in the wiki](https://github.com/DeviantJS/angular2-seed-postcss/wiki)
+
 # Introduction
 
 [![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://github.com/mgechev/angular2-style-guide)
